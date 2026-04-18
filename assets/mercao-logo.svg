@@ -1,0 +1,30 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 512 512"
+  role="img"
+  aria-labelledby="mercaoLogoTitle"
+>
+  <title id="mercaoLogoTitle">Mercao logo</title>
+  <rect width="512" height="512" fill="#ffffff" rx="72" />
+  <polygon
+    fill="#16127f"
+    points="92,168 144,168 208,296 162,376 92,236"
+    stroke-linejoin="round"
+  />
+  <polygon
+    fill="#2bd596"
+    points="164,168 234,168 260,216 200,338 170,278 204,216"
+    stroke-linejoin="round"
+  />
+  <path
+    fill="#16127f"
+    d="M252 168h54l-116 208c-7 12-1 28 13 28h65c12 0 23-7 29-18l94-170c7-12 19-20 33-20h22c26 0 47-21 47-47s-21-47-47-47h-35c-24 0-46 13-58 34l-77 139-34-59 10-18z"
+  />
+  <polygon
+    fill="#2bd596"
+    points="300,262 346,342 278,342"
+    stroke-linejoin="round"
+  />
+  <circle cx="196" cy="414" r="31" fill="#16127f" />
+  <circle cx="280" cy="414" r="31" fill="#16127f" />
+</svg>

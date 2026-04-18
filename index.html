@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mercao es una app simple para registrar productos, cantidades, precios y controlar un límite de gasto desde el celular."
+    />
+    <title>Mercao | Control simple de compras</title>
+    <link rel="icon" href="assets/mercao-logo.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Mercao inicio">
+          <img src="assets/mercao-logo.svg" alt="Logo de Mercao" />
+          <span>Mercao</span>
+        </a>
+
+        <nav class="site-nav" aria-label="Principal">
+          <a href="#app">La app</a>
+          <a href="#beneficios">Beneficios</a>
+          <a href="privacy.html">Privacidad</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" id="app">
+          <div class="hero-copy">
+            <p class="eyebrow">Mercao App</p>
+            <h1>Controla tus compras y tu presupuesto en segundos.</h1>
+            <p class="hero-text">
+              Mercao es una app tipo CRUD donde el usuario registra nombre del
+              producto, cantidad y precio. Todo se guarda localmente en el
+              dispositivo para llevar control rápido de compras sin cuentas ni
+              configuraciones previas.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="privacy.html"
+                >Ver políticas de privacidad</a
+              >
+              <a class="button button-secondary" href="#beneficios"
+                >Conocer más</a
+              >
+            </div>
+
+            <ul class="hero-points" aria-label="Características principales">
+              <li>Registro local de productos, cantidades y precios.</li>
+              <li>Límite de gasto configurable con total acumulado visible.</li>
+              <li>Sin registro, sin inicio de sesión y lista para usar.</li>
+            </ul>
+          </div>
+
+          <div class="hero-card" aria-hidden="true">
+            <div class="hero-card-glow"></div>
+            <img src="assets/mercao-logo.svg" alt="" />
+            <div class="hero-badge">Presupuesto bajo control</div>
+          </div>
+        </section>
+
+        <section class="info-grid" id="beneficios">
+          <article class="info-card">
+            <p class="card-index">01</p>
+            <h2>CRUD directo</h2>
+            <p>
+              El usuario puede crear, editar y eliminar productos con tres datos
+              simples: nombre, cantidad y precio.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <p class="card-index">02</p>
+            <h2>Control de gasto</h2>
+            <p>
+              La app muestra en la parte superior el monto acumulado según los
+              productos ingresados y permite definir un límite de gasto.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <p class="card-index">03</p>
+            <h2>Privacidad simple</h2>
+            <p>
+              Mercao no solicita datos personales, no requiere cuenta y funciona
+              desde el primer momento después de instalarse.
+            </p>
+          </article>
+        </section>
+
+        <section class="highlight">
+          <div>
+            <p class="eyebrow">Lanzamiento</p>
+            <h2>Una presencia web simple, clara y útil para tu publicación.</h2>
+          </div>
+          <p>
+            Esta página resume qué hace Mercao y enlaza una política de
+            privacidad coherente con una app que trabaja solo con información
+            local del dispositivo.
+          </p>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>© 2026 Mercao. Todos los derechos reservados.</p>
+        <a href="privacy.html">Políticas de privacidad</a>
+      </footer>
+    </div>
+  </body>
+</html>
